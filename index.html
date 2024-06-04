@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="background-header">
+      <header>Archive Your Books Here</header>
+    </div>
+
+    <main>
+      <form id="bookform" style="display: none">
+        <div class="title">
+          <h1>Enter the title of your Book</h1>
+          <input id="title" type="text" placeholder="" />
+        </div>
+        <div class="author">
+          <h1>Enter the Name of the Author</h1>
+          <input id="author" type="text" placeholder="" />
+        </div>
+
+        <div class="pages">
+          <h1>Number of pages</h1>
+          <input id="pages" type="number" placeholder="" />
+        </div>
+        <button class="submit" type="submit">Submit</button>
+      </form>
+
+      <div class="buttons">
+        <button id="add-new-book">Add Book Here</button>
+
+        <a href="catalog.html"
+          ><button id="view-catalog-button">View Catalog</button></a
+        >
+      </div>
+    </main>
+  </body>
+</html>
